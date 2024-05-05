@@ -1,0 +1,74 @@
+.layout {
+    height: 1000px;
+    width: 1000px;
+    background-color: rgb(23, 44, 44);
+    display: flex;
+    position: relative;
+    padding: 0px;
+
+
+}
+
+#player1 {
+    position: absolute;
+    display: flex;
+    top: 50px;
+    left: 50px;
+    height: 400px;
+    width: 400px;
+    background-color: violet;
+
+
+}
+
+#player2 {
+    position: absolute;
+    display: flex;
+    top: 50px;
+    right: 50px;
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+
+}
+
+#player3 {
+    position: absolute;
+    display: flex;
+    bottom: 50px;
+    left: 50px;
+    height: 400px;
+    width: 400px;
+    background-color: darkseagreen;
+
+}
+
+#player4 {
+    display: flex;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    height: 400px;
+    width: 400px;
+    background-color: palegoldenrod;
+
+}
+
+.head {
+    height: 50px;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#dice {
+    color: black;
+    position: absolute;
+    padding: 20px;
+    font-size: 30px;
+    top: 450px;
+    left: 410px;
+    right: 450px;
+    bottom: 450px
+}
+

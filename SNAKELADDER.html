@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="./SNAKELADDER.css" rel="stylesheet">
+</head>
+<body>
+    <script src="./SnakeLadder.js"></script>
+    <div style="background-color: rgb(224, 230, 176); height: 100px;"><h1 style="margin-left: 400px;">SNAKE & LADDER</h1></div>
+
+    <div style="display: flex;">
+
+        <span class="layout">
+            <div id="player1">
+                <span class="head"><h1>player 1 : <input id="p1" type="text"  value="ya" />
+                <br><br> score : <input id="score1"type="number" value="0"></h1><br><h3> Snake=[(mouth:27,tail:1),(mouth:21,tail:9),(mouth:19->tail:7),(mouth:17->tail:4)]
+                <br><br>Ladder=[(base:3->top:22),(base:11->top:26),(base:5->top:8),(base:20,top:29)]</h3>
+            </span>
+            </div>
+            <div id="player2">
+                <span class="head"><h1>player 2 : <input id="p2" type="text"  value="enter name" />
+                    <br><br> score : <input id="score2"type="number"value="0"></h1><br><h3> Snake=[{mouth:27,tail:1},{mouth:21,tail:9},{mouth:19,tail:7},{mouth:17,tail:4}]
+                        <br><br>Ladder=[{base:3,top:22},{base:11,top:26},{base:5,top:8},{base:20,top:29}]</h3></span>
+            </div>
+
+            <div>
+                <button style="color:black; position:absolute; padding:20px; font-size:30px; top:450px; left:410px; right:450px; bottom:450px">dice</button>
+               </div> 
+
+            <div id="player3">
+                <span class="head"><h1>player 3 : <input id="p3" type="text"  value="enter name" />
+                    <br><br> score : <input id="score3"type="number"value="0"></h1><br><h3> Snake=[{mouth:27,tail:1},{mouth:21,tail:9},{mouth:19,tail:7},{mouth:17,tail:4}]
+                        <br><br>Ladder=[{base:3,top:22},{base:11,top:26},{base:5,top:8},{base:20,top:29}]</h3></span>
+            </div>
+            <div id="player4">
+                <span class="head"><h1>player 4 : <input  id="p4" type="text" value="enter name" />
+                    <br><br> score : <input id="score4"type="number"value="0"></h1><br><h3> Snake=[{mouth:27,tail:1},{mouth:21,tail:9},{mouth:19,tail:7},{mouth:17,tail:4}]
+                        <br><br>Ladder=[{base:3,top:22},{base:11,top:26},{base:5,top:8},{base:20,top:29}]</h3></span>
+            </div>
+        </span>
+    
+        <span style="height:1000px;
+        width: 300px; position: relative;
+        background-color:rgb(167, 167, 162); display: flex;">
+           
+            <div2 id="num" style="margin-top: 260px; margin-left: 40px;"><h1>WINNER : <input id="win" size="5px" type="text" value="Winner"></h1></div2>
+
+            <div1 style="height: 120px;
+            width: 120px;
+            border-radius: 30%;
+            background-color: rgb(232, 230, 240);
+            border-color: 2px solid black;
+            position: absolute;
+            top: 440px;
+            left: 100px"></div1>
+        </span>
+    
+    </div>
+
+    <script src="./SnakeLadder.js"></script>
+
+</body>
